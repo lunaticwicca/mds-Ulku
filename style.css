@@ -1,0 +1,108 @@
+.carré, .carré2, .carré3 {
+    width  : 200px;  /*largeur mobile*/
+    height : 200px;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   /* transition: all 0.35s ease-in-out;
+    opacity: 0; */
+    top: 0;
+    left: 0;
+    margin: 10px;
+  }
+
+  
+.boite {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+   .boite {
+    flex-direction: row;
+    justify-content: center;
+   } 
+}
+@media screen and (min-width: 1024px) {
+    .carré2 {
+        background-color: cornflowerblue;
+    }
+    
+}
+
+  /*@media screen and (min-width:700px) {
+    .carré {
+        width: 100px;
+        background: grey;
+      
+    }
+    
+  }
+  @media screen and (min-width: 1024px) {
+    .carré {
+        width: 300px; 
+        background: pink; 
+
+    }
+    
+  } 
+
+
+
+
+
+  .carré p {
+    color: white;
+}
+
+.carré:hover {
+    background: pink;
+    width: 450px;
+    height: 450px;
+    
+} 
+
+
+.carré:hover p {
+    color: black;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+
+}
+
+body:hover .carré {
+    background-color:pink;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+   
+}
+
+p {
+    opacity: 0;
+    padding: 10px;
+    /*transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transform: rotate(0deg);
+
+}
+
+body:hover .carré p {
+opacity:2;
+transition: 2s;
+transform:rotate(360deg)
+
+} */
+
+
