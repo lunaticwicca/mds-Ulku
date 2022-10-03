@@ -1,0 +1,106 @@
+.navbar{
+    overflow: hidden;
+  
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color:darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.profil{
+display: flex;
+margin-top: 130px;
+margin-left: 50px;
+
+}
+
+.nom{
+
+display: flex;
+justify-content: space-around;
+margin-left: 100px;
+color:#FFA9C4 ;
+/*justify-content: space-around;*/
+flex-direction: column;
+
+
+}
+
+#titre{
+    color: #FF4B84;
+    position:absolute;
+    top: 60vh;
+}
+
+.fleur{
+   
+    display: flex;
+    margin-left: 800px;
+    position: absolute;
+    top: 70vh;
+}
+
+.texte{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.aboutme{
+  
+    margin-top: 20vh;
+    background-color:#F79D65
+}
+
+.quisuisje{
+    position: absolute;
+    top:152%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: x-large;
+}
+
+#titre2{
+    color: #7E9CF4;
+}
+
+.woman{
+   display: flex;
+   justify-content: flex-end;
+   position: relative;
+   bottom: 10px;
+   transform: rotate(-15deg);
+   margin-right: 0%;
+}
+
+.realisations, h1{
+    color:#FFA9C4;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+
+   
+.projet1, p{
+font-size: x-large;
+
+}
+
+.cocktail{
+    display: flex;
+    justify-content: center;
+}
+
